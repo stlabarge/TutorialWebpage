@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tutorial Webpage</title>
+    <link rel="stylesheet" ref="text/css" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Slabo+13px" rel="stylesheet">
+</head>
+<body>
+<!--REQUIREMENTS: 
+
+    B): , <footer>,
+    D): Must have body content informing the user about the topics listed below
+    E): Links in nav must be able to direct users to the matching topic sections
+    
+    G): Must make use of at least one AnimateCSS animation
+ -->
+ 
+
+<!-- header: title-->
+ <section id="header">
+    <div class="wrapper">
+            <h1 class="animated infinite jello delay-10s">JavaScript Concepts</h1>
+    </div>
+
+ </section>
+
+</section>
+
+
+<!-- side nav bar with videos-->
+<section id="sidebar">
+       <div class="sidebar">
+            <p> Helpful Videos</p>
+            <a href="https://www.youtube.com/watch?v=oigfaZ5ApsM" target="_blank">Arrays</a>
+            <a href="https://www.youtube.com/watch?v=qdr6XgYYH7I" target="_blank">Conditionals</a>
+            <a href="https://www.youtube.com/watch?v=24Wpg6njlYI" target="_blank">For Loops</a>
+             </div>
+
+</section>
+
+
+<!-- top navbar-->
+<section id="navbar">
+    <nav>
+            <ul>
+                    <li><a href="#arrays">Arrays</a></li>
+                    <li><a href="#conditionals">Conditionals</a></li>
+                    <li><a href="#forLoops">For Loops</a></li>
+                  </ul>
+    </nav>
+
+</section>
+
+ <section>
+     <div id="terms">
+         <div id="arrays"><h2><b>Arrays</b></h2>
+         <article>  <p> Arrays are special variables that can hold more than one value at a time.
+             They are list-like objects. Within this special object, you can list multiple variables.
+             This will be useful in other aspects coding later on! Below explains how to create an array out a list.</p>
+             <br> 
+             <p><p>let fruit1 = "Apple"; </p>
+             <p>let fruit2 = "Orange"; </p>
+             <p>let fruit3 = "Banana"; </p>
+             </p>
+             <br>
+             <p><i>Now let's make an array!</i> </p>
+             <br>
+             <p><b>let fruits = ["Apple","Orange","Banana"]; </b></p>
+            <p>It will be useful to use Arrays in certain coding circumstances! </p>
+            </article>
+        </div>
+            <br>
+            
+            <div id="conditionals"> <h2><b>Conditionals</b></h2>
+           <article> <p> Conditionals control whether or not a block of code should or should not run.  An if/else statement will run the specific code if the statement is true. If the statement is false it will run a different code. Now let’s say there are more than 2 options! Take a look below to see the syntax for multiple conditions.
+            </p>
+            <br>
+                    <b><p>if (condition1) { </p>
+                    <p> //  block of code will run if condition1 is true</p>
+                    <p>} else if (condition2) {</p>
+                    <p> //  block of code will run if the condition1 is false and condition2 is true</p>
+                    <p> } else {</p>
+                    <p> //  block of code to be executed if the condition1 is false and condition2 is false } </p></b>
+            
+                </article>
+            <br>
+            </div>
+
+            <div id="forLoops">
+                 <h2><b>For Loops</b></h2>
+                 <article><p> Loops are pretty nifty if you need to run the same code over and over again with different values. In this case, for Loops runs  a block of code over and over again until it hits a statement at that is not true! Below is the syntax!
+                    </p>
+                    <br>
+                <b><p>for (variable; condition; statement) {</p>
+                <p>// block of code to run } </p></b>
+            </div>
+
+
+            </article> 
+        </div>
+ </section>
+
+ <footer id=bottom>  Thank you for reading! -STL :) </footer>
+</body>
+</html>
